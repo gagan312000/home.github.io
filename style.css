@@ -1,0 +1,77 @@
+html,boby{
+	 height:100vh;
+	 width:100vw;
+	 background-image:url('1.png');
+	 background-repeat:no-repeat;
+	 background-size:cover; 
+	 background-position:fixed;
+
+}
+*{
+	font-family:berlin sans;
+	margin:0;
+	padding:0;
+}
+.nav-link .navbar-brand{
+	color:white;
+	
+}
+.navbar-brand{
+	font-size: 3w;
+}
+
+.nav-link{
+	font-size:1.3vw;
+	
+}
+
+
+h1{
+	font-size:5vw;
+	text-align:center;
+	
+}
+p{ 
+    font-size: 22px;
+	font-family: "Roboto", sans-serif;
+	
+}
+h2{
+	font-size:8vw;
+	text-align:left;
+	text-shadow:10px;
+	color:white;
+	margin: 0 30px 0 0;
+	font-family: "Roboto", sans-serif;
+
+}
+
+
+
+.pt-2{
+	font-family: "Roboto", sans-serif;
+	text-align:center;
+}
+
+.parallax{
+	height:30vw;
+	background-image:url("2.png");
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat:no-repeat
+   
+	
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
